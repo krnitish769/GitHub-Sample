@@ -2,19 +2,38 @@
 a {
     text-decoration: none;
 }
+body {
+    font-size: 100%;
+    background-image: url('Images/BGImage.jpg');
+}
+#nitish {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 600%;
+    font-variant: small-caps;
+    color: rgb(40, 203, 70);
+    margin: 2px;
+    text-align: center;
+}
 #contact {
+    line-height: 5px;
     position: absolute;
     left:2%;
-    top:4%;
+    top:2%;
     text-align: left;
     border-style: dotted;
+    border-radius: 15px;
     border-width: 2px;
     border-color: aquamarine;
-    padding: 5px 30px;
-    margin: 10px;
+    padding: 0px 20px;
+    margin: 30px 0;
 }
 #pic {
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgb(0, 255, 213);
+    border-radius: 30px;
     position:absolute;
-    top:4%;
+    top:2%;
     right:2%;
 }
