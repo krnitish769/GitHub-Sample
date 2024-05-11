@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div id="title">
+            <div id="titleContent">
+                <h1>WELCOME</h1>
+                <p><strong><em><b>--------To the <span id="intro">ROCK~SCISSOR~PAPER</span> game--------</b></em></strong></p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="scoreBoard">
+            <div class="scoreContents">Computer Score: <span id="computerScore">0</span></div>
+            <div id="attemptCount" class="scoreContents">0/5</div>
+            <div class="scoreContents">Your Score: <span id="userScore">0</span></div>
+        </div>
+
+        <div id="instructions">
+            <div id="instructionBox">|--<strong><span id="instructionText"><font>PLEASE SELECT ONE & SUBMIT</font></span></strong>--|</div>
+        </div>
+
+        <div id="mainContent">
+            <div id="computerChoiceBox" class="choiceBox">
+                <h3>Computer have Choosen:</h3>
+                <div id="computerChoice" class="selectContent">
+                    Show me your's..
+                </div>
+            </div>
+            <div id="contentBox">
+                <div id="rock" class="contentBox"><b><h4>ROCK</h4></b></div>
+                <div id="paper" class="contentBox"><b><h4>PAPER</h4></b></div>
+                <div id="scissor" class="contentBox"><b><h4>SCISSOR</h4></b></div>
+            </div>
+            <div id="userChoiceBox" class="choiceBox">
+                <h3>You've Choosen:</h3>
+                <div id="userChoice" class="selectContent">
+                    Not Selected yet..
+                </div>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="submit" class="button">SUBMIT</button>
+            <button id="restart" class="button">RESTART</button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footerContent">
+            <p><span>Made with <i class="fa fa-heart pulse"></i></span> | made by PRABHU!!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
