@@ -189,8 +189,48 @@ main {
 /* About */
 
 /* Resume */
+.resumeBox {
+    width: 100%;
+    background-color: rgba(187, 131, 26, 0.21);
+    display: flex;
+    justify-content: center;
+}
+.resume {
+    width:60%;
+    padding: 0px;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+}
 
 /* Projects */
+#projectsDiv {
+    height: 120rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectContent {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectBox {
+    height: 100%;
+    width: 80%;
+    margin: 15px;
+}
+.projectImage {
+    height: 400px;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+}
+.projectImage:hover {
+    transform: scale(1.2);
+}
 
 /* Blog */
 .blogContents {
@@ -265,6 +305,9 @@ main {
 #contactLeft {
     height: 15rem;
     width: 40%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(142, 142, 142, 0.412);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,7 +317,7 @@ main {
         padding: 3px 15px;
     }
 }
-#socialIcons {
+#socialIconsDiv {
     height: 60%;
     width: 100%;
     display: flex;
@@ -298,11 +341,19 @@ main {
         }
     }
 }
+/* .socialIcon a {
+    scale: 1.2;
+}
+.socialIcon a:hover {
+    scale: 1.5;
+    color: red;
+} */
 #contactRight {
     height: 15rem;
     width: 40%;
     border: 1px solid black;
     border-radius: 20px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
